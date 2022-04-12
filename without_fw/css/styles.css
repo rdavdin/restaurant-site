@@ -109,13 +109,9 @@ nav ul li a:hover {
   color: #61122f;
 }
 
-
-/* ------------- */
-
 .content-body {
   margin-top: 20px;
 }
-
 
 #introduce-image {
   background: url(../images/jumbotron_992.jpg) no-repeat;
@@ -129,8 +125,8 @@ nav ul li a:hover {
   text-decoration: none;
   color: inherit;
 }
-.col-4{
-  width: 300px;
+.col-4 {
+  width: 31.9%;
   float: left;
 }
 
@@ -139,6 +135,9 @@ nav ul li a:hover {
   border: 2px solid #3F0C1F; 
   text-align: center;
   margin-right: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 .body-section:hover {
   box-shadow: 0px 0px 5px 0px #cfcfcf;
@@ -150,21 +149,14 @@ nav ul li a:hover {
 #specials-image {
   background: url(../images/specials-tile.jpg) no-repeat;
 }
-/*
-#map {
-  background: url(../images/menu-tile.jpg) no-repeat;
-  margin-right: 0px;
-}
-*/
-
 
 .image-caption {
   height: 50px;
-  width: 298px;
+  width: 100%;
   text-align: center;
   background-color: #363636;
   padding: 5px 0px;
-  position:relative;
+  position:absolute;
   top: 198px;
   left: 0px; 
   opacity: 0.8; 
@@ -175,18 +167,13 @@ nav ul li a:hover {
 }
 
 #gg-map {
-  width: 300px;
-  height: 250px;
   margin-right: 0px;
-  float: left;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  float: right;
 }
 
 #map-caption {
   height: 50px;
-  width: 298px;
+  width: 100%;
   text-align: center;
   background-color: #363636;
   padding: 5px 0px;
@@ -197,7 +184,6 @@ nav ul li a:hover {
   
 }
 #map-caption span {
-  opacity: 1;
   font-size: 28px;
 }
 
@@ -218,6 +204,7 @@ footer h2 {
 
 footer section:nth-child(3){
   margin-right: 0px;
+  float: right;
 }
 
 .copyright {
@@ -234,4 +221,26 @@ footer blockquote {
 .dilivery-note {
   color: #557c3e;
   font-size: 12px;
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 1170px;
+  }
+
+  #logo-img {
+    background: url(../images/restaurant-logo_large.png) no-repeat;
+    width: 150px;
+    height: 150px;
+  }
+
+  #introduce-image {
+    background: url(../images/jumbotron_1200.jpg) no-repeat;
+    width: 1140px;
+    height: 675px;
+  }
+
+  .col-4 {
+    width: 32.1%;
+  }
 }
