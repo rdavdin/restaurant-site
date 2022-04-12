@@ -111,6 +111,7 @@ nav ul li a:hover {
 
 .content-body {
   margin-top: 20px;
+  overflow: auto;
 }
 
 #introduce-image {
@@ -243,5 +244,59 @@ footer blockquote {
   .col-4 {
     width: 32.1%;
   }
-  
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .container {
+    width: 750px;
+  }
+
+  #logo-img {
+    background: none;
+    width: 0%;
+    height: 0%;
+  }
+
+  nav {
+    width: 60%;
+    float: right;
+  }
+  nav ul {
+    width: fit-content;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .deliver-info {
+    width: auto;
+    float: right;
+    padding-right: 10px;
+    padding-top: 0px;
+  }
+
+  #introduce-image {
+    background: url(../images/jumbotron_768.jpg) no-repeat;
+    width: 720px;
+    height: 432px;
+  }
+
+  .col-4 {
+    width: 31%;
+  }
+
+  .col-6 {
+    width: 48%;
+  }
+
+  #specials-image {
+    float: right;
+    margin-right: 0px;
+  }
+
+  .col-12 {
+    width: 100%;
+    height: 251px;
+    margin-top: 10px;
+  }
+
+
 }
