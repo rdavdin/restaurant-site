@@ -1,0 +1,19 @@
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+.left-image {
+    width: 450px;
+    height: 250px;
+    background: url(../images/menu-tile.jpg) repeat;
+    margin: auto;
+    float: left;
+}
+
+.gg-map {
+    width: 450px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+}

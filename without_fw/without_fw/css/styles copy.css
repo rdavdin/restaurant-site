@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  background-color: #f6b319;
+  overflow: auto;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header-container {
+  margin: 5px auto;
+  /*padding: 0px 15px;*/
+  overflow: auto;
+  width: 1010px;
+  
+}
+
+.brand {
+  float: left;
+  width: 490px;
+}
+
+#logo-img {
+  background: url(../images/restaurant-logo_medium.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 5px;
+}
+
+
+.brand-name {
+  padding-top: 15px;
+  width: 385px;
+  float: left;
+}
+.slogan {
+  width: auto;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #363636;
+  font-size: 14px;
+}
+
+.brand-name p img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.restaurant-name {
+  font-size: 28px;
+  color: #557c3e;
+  text-shadow: 1px 1px #363636;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+}
+
+nav {
+  width: auto;
+  float: left;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+nav ul {
+  font-size: 24px;
+  padding-top: 15px;
+}
+nav ul li {
+  display: inline;
+  padding: 0px 10px;
+  font-size: 24px;
+  color: #61122f;
+}
+
+nav ul li a:hover {
+  background-color: antiquewhite;
+}
+.deliver-info {
+  width: 180px;
+  float: left;
+  padding-top: 15px;
+  padding-right: 5px;
+}
+.deliver-info p {
+  color: #557c3e;
+  text-align: right;
+}
+#phone-number {
+  font-size: 24px;
+  color: #61122f;
+}
+
+.content {
+  width: 1010px;
+  margin: 10px auto;
+}
+
+.content-body {
+  width: 996px;
+  margin: 0px auto;
+}
+
+
+#introduce-image {
+  background: url(../images/jumbotron_992.jpg) no-repeat;
+  width: 992px;
+  height: 558px;
+  margin: 10px auto;
+  border: 2px solid #3F0C1F;
+}
+.content-body a {
+  text-decoration: none;
+  color: inherit;
+}
+.col-4{
+  width: 310px;
+  float: left;
+  height: 250px;
+  margin: 10px 28px 10px 2px;
+  border: 2px solid #3F0C1F; 
+  text-align: center;
+}
+.col-4:hover {
+  box-shadow: 0px 0px 5px 0px #cfcfcf;
+}
+
+#menu-image {
+  background: url(../images/menu-tile.jpg) no-repeat;
+}
+#specials-image {
+  background: url(../images/specials-tile.jpg) no-repeat;
+}
+#map {
+  background: url(../images/menu-tile.jpg) no-repeat;
+  margin-right: 0px;
+}
+
+.image-capture {
+  height: 40px;
+  text-align: center;
+  background-color: #363636;
+  padding: 5px 0px;
+  position:relative;
+  top: 206px;
+  left: 0px; 
+  opacity: 0.8; 
+}
+.image-capture span {
+  opacity: 1;
+  font-size: 28px;
+}

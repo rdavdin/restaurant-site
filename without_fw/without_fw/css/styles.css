@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  background-color: #f6b319;
+  overflow: auto;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 970px;
+  margin: 0px auto 10px auto;
+  overflow: auto;
+  padding: 0px 15px;
+}
+
+#header-container {
+  margin: 5px auto;
+}
+
+.brand {
+  float: left;
+  width: 50%;
+}
+
+#logo-img {
+  background: url(../images/restaurant-logo_medium.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.brand-name {
+  padding-top: 15px;
+  padding-left: 5px;
+  width: auto;
+  float: left;
+}
+.slogan {
+  width: auto;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #363636;
+  font-size: 14px;
+}
+
+.brand-name p img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.restaurant-name {
+  font-size: 1.5em;
+  color: #557c3e;
+  text-shadow: 1px 1px #363636;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+nav {
+  width: 50%;
+  float: left;
+}
+
+nav ul {
+  padding-top: 15px;
+  padding-left: 30px;
+  width: 300px;
+  float: left;
+}
+nav ul li {
+  display: inline;
+  font-size: 22px;
+  color: #61122f;
+  padding-left: 10px;
+}
+
+nav ul li a:hover {
+  background-color: antiquewhite;
+}
+
+.deliver-info {
+  width: auto;
+  float: right;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.deliver-info p {
+  color: #557c3e;
+  text-align: right;
+}
+#phone-number {
+  font-size: 25px;
+  color: #61122f;
+}
+
+
+/* ------------- */
+
+.content-body {
+  margin-top: 20px;
+}
+
+
+#introduce-image {
+  background: url(../images/jumbotron_992.jpg) no-repeat;
+  width: 940px;
+  height: 528px;
+  margin: 10px auto;
+  border: 2px solid #3F0C1F;
+  box-shadow: -1px -1px 5px 0px #1a1313;
+}
+.content-body a {
+  text-decoration: none;
+  color: inherit;
+}
+.col-4{
+  width: 300px;
+  float: left;
+}
+
+.body-section {
+  height: 250px;
+  border: 2px solid #3F0C1F; 
+  text-align: center;
+  margin-right: 20px;
+}
+.body-section:hover {
+  box-shadow: 0px 0px 5px 0px #cfcfcf;
+}
+
+#menu-image {
+  background: url(../images/menu-tile.jpg) no-repeat;
+}
+#specials-image {
+  background: url(../images/specials-tile.jpg) no-repeat;
+}
+/*
+#map {
+  background: url(../images/menu-tile.jpg) no-repeat;
+  margin-right: 0px;
+}
+*/
+
+
+.image-caption {
+  height: 50px;
+  width: 298px;
+  text-align: center;
+  background-color: #363636;
+  padding: 5px 0px;
+  position:relative;
+  top: 198px;
+  left: 0px; 
+  opacity: 0.8; 
+}
+.image-caption span {
+  opacity: 1;
+  font-size: 28px;
+}
+
+#gg-map {
+  width: 300px;
+  height: 250px;
+  margin-right: 0px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#map-caption {
+  height: 50px;
+  width: 298px;
+  text-align: center;
+  background-color: #363636;
+  padding: 5px 0px;
+  position:absolute;
+  top: 198px;
+  left: 0px; 
+  opacity: 0.8; 
+  
+}
+#map-caption span {
+  opacity: 1;
+  font-size: 28px;
+}
+
+footer {
+  overflow: auto;
+  background-color: #222;
+  padding-top: 50px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+footer h2 {
+  padding-bottom: 10px;
+}
+.footer-section{
+  margin-right: 20px;
+}
+
+footer section:nth-child(3){
+  margin-right: 0px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer blockquote {
+  font-style: italic;
+  padding-bottom: 10px;
+  line-height: 28px;
+}
+
+.dilivery-note {
+  color: #557c3e;
+  font-size: 12px;
+}
